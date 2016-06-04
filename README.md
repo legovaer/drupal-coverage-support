@@ -1,9 +1,9 @@
-# Drupal Automiser
+# Drupal Github Synchroniser
 
-This tool will prepare your Drupal module's git repository for executing automated tests using Travis. As Travis CI
-currently doesn't support Drupal.org, this tool will setup some GIT hooks which will keep your GitHub repository
-completely in sync with your Drupal.org repository. This allows you to use all the tools which work along with GitHub
-without concerning about abandoning drupal.org.
+This tool will prepare your Drupal.org's repository to sync with GitHub. This can be useful for executing automated
+tests using Travis. As Travis CI currently doesn't support Drupal.org, this tool will setup some GIT hooks which will
+keep your GitHub repository completely in sync with your Drupal.org repository. This allows you to use all the tools
+which work along with GitHub without concerning about abandoning drupal.org.
 
 
 ## Before you begin
