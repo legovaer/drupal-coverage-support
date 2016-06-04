@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
+. config.data
 clear
 echo "
 WARNING: This script will update your GIT hooks and commit them to your Drupal.org repository.
 Make sure that you have modified the configuration file
 (lib/hooks/config.data) according to your settings.
 
-
-
+Double check your configuration options:
+Drupal.org repository: $GIT_DRUPAL_REPOSITORY
+GitHub repository:     $GIT_GITHUB_REPOSITORY
+GitHub project URL:    $GIT_GITHUB_URL
 
 "
 read -p "Press [Enter] key to automize your Drupal module deployment..."
