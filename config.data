@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Specify the full url of your Drupal module's GIT repository.
+# E.g. https://git.drupal.org/project/scheduler.git
+GIT_DRUPAL_REPOSITORY="git clone --branch 8.x-1.x Kab00m@git.drupal.org:sandbox/Kab00m/2742537.git"
+
+# Specify the full url of your GitHub's repository.
+# Note: Make sure that this is an empty repository as we will mirror
+# Drupal's repository to this repository.
+GIT_GITHUB_REPOSITORY="https://www.github.com/"
+
+# Instead of specifying the repository itself, specify
+# the base url of the project on GitHub.
+# E.g. https://github.com/legovaer/scheduler
+GIT_GITHUB_URL="https://github.com/
