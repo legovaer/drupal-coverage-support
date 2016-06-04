@@ -25,7 +25,8 @@ which work along with GitHub without concerning about abandoning drupal.org.
 
 **WARNING: Make sure you don't execute the setup.sh script more then once.** 
 
-1. Clone this project into the root of your module repository.
+1. Download this project into the root of your module repository. **NOTE: If you clone this repository, make sure
+   you remove the `.git` folder as it will cause errors.**
 2. Update the configuration file `config.data`
 3. Excute the setup script:
    `$ sh setup.sh`
