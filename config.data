@@ -11,4 +11,4 @@ GIT_GITHUB_REPOSITORY="https://www.github.com/"
 # Instead of specifying the repository itself, specify
 # the base url of the project on GitHub.
 # E.g. https://github.com/legovaer/scheduler
-GIT_GITHUB_URL="https://github.com/
+GIT_GITHUB_URL="https://github.com/"
